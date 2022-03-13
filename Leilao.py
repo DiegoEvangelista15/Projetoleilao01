@@ -41,7 +41,7 @@ while not aposta_finalizada:
         if apostadores_continuar == 'nao':
             aposta_finalizada = True
             maior_valor(aposta)
-        elif apostadores_continuar == 'yes':
+        elif apostadores_continuar == 'sim':
             if os.name == 'nt':
                 os.system('cls')
             else:
